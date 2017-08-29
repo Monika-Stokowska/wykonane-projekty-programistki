@@ -1,0 +1,62 @@
+
+.container {
+	
+	padding: 20px;
+	margin: 20px;
+	width: 100%;
+	
+}
+.container-kartka {
+	box-shadow: 2px 2px 20px #444;
+	padding: 20px;
+	margin: 20px;
+}
+.container-gorny{
+	background-color: grey;
+	display: flex;
+	height: 50%;
+	margin: 20px;
+}
+
+.container-gorny h1 {
+	font-size: 40px;
+}
+.container-gorny p {
+	font-size: 20px;
+}
+.container-dolny{
+	margin: 20px;
+	height: 40%;
+}
+.image-cat {
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	padding-top: 20px;
+	border-radius: 50%;
+	border-width: 10px;
+	border-color: white;
+}
+.right-section, .left-section {
+	display: inline-flex;
+}
+.left-section {
+	flex-direction: column;
+}
+.container-gorny h1, p {
+	color: white;
+	padding: 20px;
+}
+.container-dolny h1, {
+	padding: 20px;
+}
+.image-1, .image-2, .image-3 {
+	
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-basis: 100%;
+}
+.whiskas, .karmadlakota, .applaws {
+	height: 150px;
+}
